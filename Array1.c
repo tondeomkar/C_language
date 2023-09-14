@@ -2,21 +2,19 @@
 
 int main()
 {
-    // All the belwo memory allocations are static memory allocations
+ int no = 11;
+ 
+ int Arr[5];
 
-    // First way to intialise the array
-    int Arr[4] = {10,20,30,40};     // Member initialisation list
+ Arr[0] = 11;
+ Arr[1] = 21;
+ Arr[2] = 51;
+ Arr[3] = 101;
+ Arr[4] = 111;
 
-    //Second way to initialise the array
-    int Brr[] = {10,20,30,40}; // Member initialisation list
+ int Brr[5] = {11,21,51,101,111};
 
-    // Third way to initialise the array
-    int Crr[4];
-    // Member by meber initialisation
-    Crr[0] = 10;
-    Crr[1] = 20;
-    Crr[2] = 30;
-    Crr[3] = 40;
+ int Crr[ ] = {11,21,51,101,111};  
 
-    return 0;
+ return 0;
 }
