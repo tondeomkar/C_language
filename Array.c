@@ -1,8 +1,7 @@
 #include<stdio.h>
-
-// Definations of global variables
-// Scope : Throughout the program
-int No1 = 11;                   // Global variable
-
-// Scope : Throughout the file
-static int No2 = 21;            // Global static variable
+int main()
+{
+    int arr[5]={1,2,3,4,5,6};
+    printf("Array created successfully %d",arr[1]);
+    return 0;
+}
